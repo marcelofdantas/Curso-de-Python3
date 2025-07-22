@@ -1,0 +1,10 @@
+msg = str(input('Digite seu nome completo: ')).strip()
+lm = msg.upper()
+lmi = msg.lower()
+lse = len(msg)-msg.count(' ')
+#lpn = msg.find(' ')
+lpn = msg.split()[0]
+print(lm)
+print(lmi)
+print(lse)
+print(len(lpn))
